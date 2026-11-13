@@ -1,0 +1,30 @@
+# configs/versions.yaml
+dataset_version: "v2"
+python: "3.12.10"
+
+# time grids (must match kinesync/constants.py and CONTRACT.md)
+audio_sr_librosa: 22050
+audio_fps: 10
+audio_hop_length: 2205      # 22050 / 10
+video_fps: 2                # grid stored in the .npz
+video_stats_decode_fps: 10  # internal decode, pooled 5:1 into the 2 fps grid
+clap_hz: 1
+audio_sr_clap: 48000
+
+models:
+  whisper_model: "base"
+  whisper_compute_type: "int8"
+  clap_model: "laion/clap-htsat-unfused"
+  clip_model: "ViT-B-32"
+  clip_pretrained: "laion2b_s34b_b79k"
+
+cuts:
+  detector: "ContentDetector"      # env KINESYNC_DETECTOR=adaptive switches to AdaptiveDetector
+  threshold: 27.0
+  min_scene_len_frames: 6
+  min_shot_s: 0.2
+
+# Library versions: do NOT guess them here. After the pilot works, run
+#   pip freeze > requirements.txt
+# and commit that file; both laptops install from it.
+libraries_file: "requirements.txt"

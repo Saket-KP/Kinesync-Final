@@ -1,54 +1,43 @@
-# Allowlist. Everything is ignored unless un-ignored below, so nothing can be added
-# by accident: not the 112 MB checkpoints, not the data release, not the lyric text,
-# not the generated storyboards (whose sheets carry lyric lines).
-*
-!*/
+# Large, private, or generated. Files are added to this repo explicitly, so this is a
+# second line of defence rather than the only one.
 
-!.gitignore
+# Model weights: 112 MB each, over GitHub's 100 MB hard limit
+*.pt
+*.ckpt
 
-# ============================================================ STAGE 1 (this folder)
-!common/*.py
-!timeline/*.py
+# The data release: large, not ours to republish, and the lyric text must not be
+# published at all (see DATA_CARD.md).
+/data/
+/data_v2/features/
+/data_v2/shots/
+/data_v2/lyrics/
+/data_v2/masked_lyrics.csv
+/data_v2/pending_not_processed.csv
+/data_v2/removed_duplicates.csv
+*.zip
 
-# Configs for the runs that appear in the paper. stage1_base.yaml is excluded (it
-# points at the pilot data, which is not here) and so is stage1_edge.yaml.
-!timeline/configs/stage1_v2.yaml
-!timeline/configs/stage1_w30.yaml
-!timeline/configs/stage1_rcfg.yaml
-!timeline/configs/stage1_xattn.yaml
+# Training and evaluation outputs
+/runs/
+/out/
 
-# Split and normalisation only. Every result depends on using exactly these files;
-# they must not be recomputed.
-!data_v2/splits.csv
-!data_v2/artist_splits.csv
-!data_v2/norm_stats.json
-!data_v2/stats/norm_train.json
-!data_v2/vocab/*.json
+# Stage 2 generated output: storyboard sheets carry lyric lines
+/Stage 2/Kinesync/outputs/
+/Stage 2/Kinesync/checkpoints/
+/Stage 2/Kinesync/cache/
+/Stage 2/Kinesync/stage1/
+/Stage 2/Kinesync/stage2/
+/Stage 2/Kinesync/uploads/
+/Stage 2/Kinesync/results/
+/Stage 2/Kinesync/.git_disabled/
 
-# ======================================================= STAGE 2 AND THE RENDERER
-# Code: the pipeline, Stage 2 model, the Stage 1 adapter, prompts, panels, outputs.
-!Stage 2/Kinesync/kinesync/*.py
-!Stage 2/Kinesync/kinesync/*/*.py
+# Paper sources and working notes are kept out of this repo by request
+/paper/
+/labels/
+/Sample real-cutlist/
 
-# Configs: render, sampling, versions, the tag groups, and the ensemble definitions.
-!Stage 2/Kinesync/configs/*.yaml
-!Stage 2/Kinesync/configs/stage2/*.yaml
-
-# Its own split, normalisation and vocabulary, so the stage is self-contained.
-!Stage 2/Kinesync/splits.csv
-!Stage 2/Kinesync/artist_splits.csv
-!Stage 2/Kinesync/stats/*.json
-!Stage 2/Kinesync/vocab/*.json
-
-!Stage 2/Kinesync/tests/*.py
-
-# ================================================================ never, for the record
-# data_v2/features/, shots/        the data release, not ours to republish
-# data_v2/lyrics/                  553 files of lyric text; the data card forbids it
-# runs/**/*.pt                     112 MB each, over GitHub's 100 MB hard limit
-# Stage 2/Kinesync/checkpoints/    Stage 2 weights
-# Stage 2/Kinesync/outputs/        generated sheets carry lyric lines
-# Stage 2/Kinesync/results/        5.8 MB of exploration reports
-# *.zip                            release archives and Overleaf bundles
+# Local environment
+/.claude/
 __pycache__/
 *.pyc
+.pytest_cache/
+/.venv/

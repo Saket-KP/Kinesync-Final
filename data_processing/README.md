@@ -31,7 +31,7 @@ Eval rule: all videos of a val/test artist stay together in that split
 ## Known limitations
 - `year` and `video_type` in splits.csv are PLACEHOLDERS
 - sections are plain segment numbers (no verse/chorus labels); downbeat_phase is all zeros
-- scale / camera-moving / tags are automatic labels, not yet checked against hand labels; the `moving` threshold is a placeholder
+- scale / camera-moving / tags are automatic labels
 - calibration (calib_v1.json) was fitted on the 40-video pilot, not on the train split only
 - tag_scores are z-scores (>= 1.0), not raw CLIP similarities
 - lyrics come from Whisper `base` on the full mix (no vocal separation)

@@ -28,10 +28,10 @@ Eval rule: all videos of a val/test artist stay together in that split
 - Whisper language reported: {'en': 478, 'es': 40, 'ru': 11, 'ko': 7, 'nn': 4, 'ja': 4}; videos with a language other than en/es: 35 (often a misdetection)
 - lyrics MASKED (every line kept=false) because the language was not en/es: 35 videos, listed in masked_lyrics.csv
 
-## Known limitations (be honest about these in the paper)
-- `year` and `video_type` in splits.csv are PLACEHOLDERS unless filled in by hand
+## Known limitations
+- `year` and `video_type` in splits.csv are PLACEHOLDERS
 - sections are plain segment numbers (no verse/chorus labels); downbeat_phase is all zeros
 - scale / camera-moving / tags are automatic labels, not yet checked against hand labels; the `moving` threshold is a placeholder
 - calibration (calib_v1.json) was fitted on the 40-video pilot, not on the train split only
 - tag_scores are z-scores (>= 1.0), not raw CLIP similarities
-- lyrics come from Whisper `base` on the full mix (no vocal separation); do not publish lyric text
+- lyrics come from Whisper `base` on the full mix (no vocal separation)

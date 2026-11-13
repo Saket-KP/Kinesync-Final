@@ -1,0 +1,7 @@
+# Stage 2 sampling (handoff 4.4)
+tau_scale: 1.0       # softmax temperature for scale
+tau_tag: 1.15        # tag temperature; 1.15 matches tag rates on VAL (mean |log ratio| 0.072 vs 0.332 at 1.0)
+rep_limit: auto      # 'auto' = estimated from train labels and stored in the checkpoint
+rep_penalty: 2.0     # divide an over-used setting's probability by this
+rep_min_shots: 5     # do not apply repetition control before this many shots
+calibrate: true      # undo training-time class weights / pos_weight before sampling (see sample.py)

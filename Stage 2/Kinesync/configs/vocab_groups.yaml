@@ -1,0 +1,10 @@
+# mode / max_picks per tag group. Not in vocab/tags_v1.json, so set here (preflight D3).
+# Checked against the labels: setting and lighting never have more than 1 tag per shot,
+# subject, action and style never more than 2.
+vocab_version: tags_v1
+groups:
+  setting:  {mode: single, max_picks: 1}
+  subject:  {mode: multi,  max_picks: 2}
+  action:   {mode: multi,  max_picks: 2}
+  lighting: {mode: single, max_picks: 1}
+  style:    {mode: multi,  max_picks: 2}

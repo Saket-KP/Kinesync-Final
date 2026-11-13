@@ -1,0 +1,10 @@
+# All eight: the four self-attention members of final_ensemble.yaml and the four cross-attention members.
+members:
+  - checkpoints/stage2/final/seed1234.pt
+  - checkpoints/stage2/final/seed1.pt
+  - checkpoints/stage2/final/seed2.pt
+  - checkpoints/stage2/final/d128.pt
+  - checkpoints/stage2/cross/seed1234.pt
+  - checkpoints/stage2/cross/seed1.pt
+  - checkpoints/stage2/cross/seed2.pt
+  - checkpoints/stage2/cross/d128.pt

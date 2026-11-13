@@ -1,0 +1,554 @@
+video_id,youtube_id,artist,genre,year,video_type,duration_s,split
+v0000,TUVcZfQe-Kw,Dua Lipa,pop,2020,mixed,230.0,val
+v0001,k2qgadSvNyU,Dua Lipa,pop,2020,mixed,224.0,val
+v0004,4NRXx6U8ABQ,The Weeknd,pop,2020,mixed,263.0,val
+v0005,dMoFcvfd5t4,The Weeknd,pop,2020,mixed,269.0,val
+v0006,mw3kSNIxjqo,Taylor Swift,pop,2020,mixed,312.0,train
+v0007,ko70cExuzZM,Taylor Swift,pop,2020,mixed,238.0,train
+v0010,tcYodQoapMg,Ariana Grande,pop,2020,mixed,178.0,train
+v0011,SXiSVQZLje8,Ariana Grande,pop,2020,mixed,238.0,train
+v0012,lY5V4hSLWY8,Bruno Mars,pop,2020,mixed,211.0,test
+v0013,mrV8kK5t0V8,Bruno Mars,pop,2020,mixed,213.0,test
+v0014,kPa7bsKwL-c,Bruno Mars,pop,2020,mixed,252.0,test
+v0015,S2dRcipMCpw,Billie Eilish,pop,2020,mixed,229.0,test
+v0016,V9PVRfjEBTI,Billie Eilish,pop,2020,mixed,231.0,test
+v0017,DyDfgMOUjCI,Billie Eilish,pop,2020,mixed,206.0,test
+v0018,cii6ruuycQA,Olivia Rodrigo,pop,2020,mixed,232.0,train
+v0019,Rt9tW3cMLhI,Olivia Rodrigo,pop,2020,mixed,217.0,train
+v0020,B402rKl4bUg,Olivia Rodrigo,pop,2020,mixed,314.0,train
+v0021,2Vv-BfVoq4g,Ed Sheeran,pop,2020,mixed,282.0,train
+v0024,M4qX5wzx-wY,Harry Styles,pop,2020,mixed,256.0,train
+v0025,H5v3kku4y6Q,Harry Styles,pop,2020,mixed,166.0,train
+v0032,bESGLojNYSo,Lady Gaga,pop,2020,mixed,214.0,test
+v0033,kffacxfA7G4,Justin Bieber,pop,2020,mixed,219.0,train
+v0036,o3mP3mJDL2k,Rihanna,pop,2020,mixed,206.0,train
+v0037,CvBfHwUxHIk,Rihanna,pop,2020,mixed,254.0,train
+v0038,yd8jh9QYfEs,Rihanna,pop,2020,mixed,233.0,train
+v0039,dT2owtxkU8k,Shawn Mendes,pop,2020,mixed,237.0,val
+v0040,lY2yjAdbvdQ,Shawn Mendes,pop,2020,mixed,256.0,val
+v0042,BQ0mxQXmLsk,Camila Cabello,pop,2020,mixed,403.0,val
+v0043,Ph54wQG8ynk,Camila Cabello,pop,2020,mixed,241.0,val
+v0044,6fd2kkLmSDQ,Camila Cabello,pop,2020,mixed,183.0,val
+v0045,n-D1EB74Ckg,Selena Gomez,pop,2020,mixed,289.0,train
+v0046,ij_0p_6qTss,Selena Gomez,pop,2020,mixed,275.0,train
+v0048,nfs8NYg7yQM,Charlie Puth,pop,2020,mixed,232.0,train
+v0049,3AtDnEC4zak,Charlie Puth,pop,2020,mixed,231.0,train
+v0050,CwfoyVa980U,Charlie Puth,pop,2020,mixed,210.0,train
+v0051,ZAfAud_M_mg,Halsey,pop,2020,mixed,236.0,train
+v0052,xdYFuCp3m9k,Halsey,pop,2020,mixed,183.0,train
+v0053,ePao0cTGG-o,Halsey,pop,2020,mixed,184.0,train
+v0054,Uq9gPaIzbe8,Sam Smith,pop,2020,mixed,275.0,train
+v0056,J_ub7Etch2U,Sam Smith,pop,2020,mixed,264.0,train
+v0057,dI3xkL7qUAc,Doja Cat,pop,2020,mixed,220.0,train
+v0058,m4_9TFeMfJE,Doja Cat,pop,2020,mixed,296.0,train
+v0059,yxW5yuzVi8w,Doja Cat,pop,2020,mixed,193.0,train
+v0060,eVli-tstM5E,Sabrina Carpenter,pop,2020,mixed,201.0,train
+v0061,aSugSGCC12I,Sabrina Carpenter,pop,2020,mixed,236.0,train
+v0062,cF1Na4AIecM,Sabrina Carpenter,pop,2020,mixed,263.0,train
+v0063,woLfAvD5iXI,Chappell Roan,pop,2020,mixed,271.0,train
+v0066,ZhGl8McrOHo,Troye Sivan,pop,2020,mixed,189.0,train
+v0067,Yvl4QSAyWR4,Troye Sivan,pop,2020,mixed,244.0,train
+v0068,fYaF00OZ69U,Troye Sivan,pop,2020,mixed,292.0,train
+v0069,nlcIKh6sBtc,Lorde,pop,2020,mixed,200.0,train
+v0070,f2JuxM-snGc,Lorde,pop,2020,mixed,200.0,train
+v0071,dMK_npDG12Q,Lorde,pop,2020,mixed,243.0,train
+v0072,fWNaR-rxAic,Carly Rae Jepsen,pop,2020,mixed,199.0,train
+v0073,qV5lzRHrGeg,Carly Rae Jepsen,pop,2020,mixed,209.0,train
+v0074,TeccAtqd5K8,Carly Rae Jepsen,pop,2020,mixed,252.0,train
+v0075,2vjPBrBU-TM,Sia,pop,2020,mixed,231.0,train
+v0077,GKSRyLdjsPA,Sia,pop,2020,mixed,352.0,train
+v0078,rYEDA3JcQqw,Adele,pop,2020,mixed,234.0,train
+v0079,YQHsXMglC9A,Adele,pop,2020,mixed,367.0,train
+v0080,U3ASj1L6_sY,Adele,pop,2020,mixed,332.0,train
+v0081,aWpw-Ynl0Yc,Miley Cyrus,pop,2020,mixed,239.0,train
+v0082,LrUvu1mlWco,Miley Cyrus,pop,2020,mixed,213.0,train
+v0083,G7KNmW9a75Y,Miley Cyrus,pop,2020,mixed,202.0,train
+v0084,AByfaYcOm4A,Demi Lovato,pop,2020,mixed,215.0,train
+v0085,8JnfIa84TnU,Demi Lovato,pop,2020,mixed,223.0,train
+v0087,uvY8fdgezLQ,Zara Larsson,pop,2020,mixed,188.0,train
+v0089,tD4HCZe-tew,Zara Larsson,pop,2020,mixed,202.0,train
+v0090,WXBHCQYxwr0,Ava Max,pop,2020,mixed,207.0,train
+v0091,SxGLPVvNjvY,Ava Max,pop,2020,mixed,194.0,train
+v0092,w8mBplMtwJ8,Ava Max,pop,2020,mixed,172.0,train
+v0093,g6xvHG8nd5U,Bebe Rexha,pop,2020,mixed,189.0,train
+v0094,zDo0H8Fm7d0,Bebe Rexha,pop,2020,mixed,178.0,train
+v0095,90RLzVUuXe4,Bebe Rexha,pop,2020,mixed,177.0,train
+v0098,ksdAs4LBRq8,Rita Ora,pop,2020,mixed,222.0,test
+v0099,AJtDXIazrMo,Ellie Goulding,pop,2020,mixed,249.0,train
+v0100,CGyEd0aKWZE,Ellie Goulding,pop,2020,mixed,238.0,train
+v0101,jTTNWpag6fI,Ellie Goulding,pop,2020,mixed,243.0,train
+v0106,Jtauh8GcxBY,Lewis Capaldi,pop,2020,mixed,246.0,train
+v0107,QZLxVvLyKTo,Lewis Capaldi,pop,2020,mixed,217.0,train
+v0108,ljXSjIph5ZM,Niall Horan,pop,2020,mixed,226.0,train
+v0109,k7jeYJA9bgY,Niall Horan,pop,2020,mixed,197.0,train
+v0110,wk99OKNE_Ro,Niall Horan,pop,2020,mixed,234.0,train
+v0111,tt2k8PGm-TI,Zayn,pop,2020,mixed,337.0,train
+v0112,2ZTcvsdMR1c,Zayn,pop,2020,mixed,164.0,train
+v0113,C_3d6GntKbk,Zayn,pop,2020,mixed,207.0,train
+v0114,p7bfOZek9t4,Rosalia,pop,2020,mixed,165.0,test
+v0115,2j3x0VYnehg,Rosalia,pop,2020,mixed,208.0,test
+v0116,htQBS2Ikz6c,Rosalia,pop,2020,mixed,207.0,test
+v0117,dpvQqmX6SUI,Tate McRae,pop,2020,mixed,147.0,test
+v0118,DPEodkHzH-s,Tate McRae,pop,2020,mixed,209.0,test
+v0119,To4SWGZkEPk,Tate McRae,pop,2020,mixed,154.0,test
+v0124,Yzbvv8WdP9k,Conan Gray,pop,2020,mixed,296.0,train
+v0125,2lSyHZLzNYA,Conan Gray,pop,2020,mixed,290.0,train
+v0126,BcqxLCWn-CE,Lauv,pop,2020,mixed,205.0,train
+v0127,Klsi8CbSm8Y,Lauv,pop,2020,mixed,209.0,train
+v0128,c_10qS7amjk,Lauv,pop,2020,mixed,236.0,train
+v0129,Uk1hv6h7O1Y,Bazzi,pop,2020,mixed,195.0,train
+v0130,Gc71AmT_b2k,Bazzi,pop,2020,mixed,130.0,train
+v0132,ShlW5plD_40,Meghan Trainor,pop,2020,mixed,201.0,train
+v0133,pkCyfBibIbI,Meghan Trainor,pop,2020,mixed,176.0,train
+v0134,fD7LIqkKisc,Meghan Trainor,pop,2020,mixed,175.0,train
+v0135,mNEUkkoUoIA,onerepublic,pop,2020,mixed,154.0,train
+v0138,aJOTlE1K90k,Maroon 5,pop,2020,mixed,271.0,train
+v0140,09R8_2nJtjg,Maroon 5,pop,2020,mixed,301.0,train
+v0141,hmUyEDG7Jy0,Jonas Brothers,pop,2020,mixed,165.0,train
+v0143,kBNt8hYvn8A,Jonas Brothers,pop,2020,mixed,201.0,train
+v0144,4fndeDfaWCg,Backstreet Boys,pop,2020,mixed,219.0,val
+v0145,6M6samPEMpM,Backstreet Boys,pop,2020,mixed,362.0,val
+v0146,OT5msu-dap8,Backstreet Boys,pop,2020,mixed,229.0,val
+v0147,MkElfR_NPBI,Little Mix,pop,2020,mixed,226.0,train
+v0148,bFDzhKdrN9M,Little Mix,pop,2020,mixed,248.0,train
+v0150,eVTXPUF4Oz4,Linkin Park,rock,2020,mixed,218.0,val
+v0151,kXYiU_JCYtU,Linkin Park,rock,2020,mixed,187.0,val
+v0152,zsCD5XCu6CM,Linkin Park,rock,2020,mixed,226.0,val
+v0153,Soa3gO7tL-c,Green Day,rock,2020,mixed,288.0,train
+v0154,NUTGr5t3MoY,Green Day,rock,2020,mixed,194.0,train
+v0155,Ee_uujKuJMI,Green Day,rock,2020,mixed,181.0,train
+v0156,SBjQ9tuuTJQ,Foo Fighters,rock,2020,mixed,270.0,train
+v0157,a9lTedOJDxI,Foo Fighters,rock,2020,mixed,224.0,train
+v0158,eBG7P-K-r1Y,Foo Fighters,rock,2020,mixed,291.0,train
+v0159,YlUKcNNmywk,Red Hot Chili Peppers,rock,2020,mixed,321.0,test
+v0160,8DyziWtkfBw,Red Hot Chili Peppers,rock,2020,mixed,278.0,test
+v0161,Q0oIoR9mLwc,Red Hot Chili Peppers,rock,2020,mixed,304.0,test
+v0162,6366dxFf-Os,Arctic Monkeys,rock,2020,mixed,288.0,train
+v0164,bpOSxM0rNPM,Arctic Monkeys,rock,2020,mixed,266.0,train
+v0165,gGdGFtwCNBE,The Killers,rock,2020,mixed,228.0,val
+v0166,RIZdjT1472Y,The Killers,rock,2020,mixed,259.0,val
+v0167,yVLRhZiZ5Wc,The Killers,rock,2020,mixed,228.0,val
+v0168,3dm_5qWWDV8,Muse,rock,2020,mixed,227.0,train
+v0169,dbB-mICjkQM,Muse,rock,2020,mixed,220.0,train
+v0171,RvnkAtWcKYg,Paramore,rock,2020,mixed,254.0,train
+v0172,aCyGvGEtOwc,Paramore,rock,2020,mixed,199.0,train
+v0174,LBr7kECsjcQ,Fall Out Boy,rock,2020,mixed,272.0,train
+v0175,uhG-vLZrb-g,Fall Out Boy,rock,2020,mixed,230.0,train
+v0176,LkIWmsP3c_s,Fall Out Boy,rock,2020,mixed,188.0,train
+v0178,UCCyoocDxBA,My Chemical Romance,rock,2020,mixed,210.0,test
+v0179,dhZTNgAs4Fc,My Chemical Romance,rock,2020,mixed,206.0,test
+v0180,9Ht5RZpzPqw,Blink-182,rock,2020,mixed,171.0,train
+v0181,K7l5ZeVVoCA,Blink-182,rock,2020,mixed,146.0,train
+v0182,s1tAYmMjLdY,Blink-182,rock,2020,mixed,230.0,train
+v0183,pXRviuL6vMY,Twenty One Pilots,rock,2020,mixed,225.0,train
+v0184,UprcpdwuwCg,Twenty One Pilots,rock,2020,mixed,218.0,train
+v0185,Pw-0pbY9JeU,Twenty One Pilots,rock,2020,mixed,225.0,train
+v0186,7wtfhZwyrcc,Imagine Dragons,rock,2020,mixed,217.0,train
+v0189,ewOPQZZn4SY,The Strokes,rock,2020,mixed,287.0,test
+v0192,Ijk4j-r7qPA,Franz Ferdinand,rock,2020,mixed,240.0,train
+v0193,haW_ruZ_Be8,Franz Ferdinand,rock,2020,mixed,224.0,train
+v0196,gFp7q-IJqno,Kings of Leon,rock,2020,mixed,252.0,train
+v0198,s88r_q7oufE,Queens of the Stone Age,rock,2020,mixed,259.0,train
+v0199,DcHKOC64KnE,Queens of the Stone Age,rock,2020,mixed,191.0,train
+v0200,eAOIpDUDGX4,Queens of the Stone Age,rock,2020,mixed,227.0,train
+v0201,hTWKbfoikeg,Nirvana,rock,2020,mixed,278.0,train
+v0202,vabnZ9-ex7o,Nirvana,rock,2020,mixed,224.0,train
+v0203,pkcJEvMcnEg,Nirvana,rock,2020,mixed,255.0,train
+v0204,CxKWTzr-k6s,Pearl Jam,rock,2020,mixed,325.0,train
+v0205,MS91knuzoOA,Pearl Jam,rock,2020,mixed,334.0,train
+v0206,aDaOgu2CQtI,Pearl Jam,rock,2020,mixed,239.0,train
+v0207,sC2GjXMk7i4,Soundgarden,rock,2020,mixed,303.0,val
+v0208,ySzrJ4GRF7s,Soundgarden,rock,2020,mixed,306.0,val
+v0209,sNh-iw7gsuI,Soundgarden,rock,2020,mixed,249.0,val
+v0210,4aeETEoNfOg,The Smashing Pumpkins,rock,2020,mixed,261.0,train
+v0211,NOG3eus4ZSo,The Smashing Pumpkins,rock,2020,mixed,258.0,train
+v0212,8-r-V0uK4u0,The Smashing Pumpkins,rock,2020,mixed,258.0,train
+v0213,erG5rgNYSdk,Weezer,rock,2020,mixed,200.0,train
+v0216,7iNbnineUCI,The Offspring,rock,2020,mixed,180.0,test
+v0217,LH-i8IvYIcg,The Offspring,rock,2020,mixed,192.0,test
+v0218,asDlYjJqzWE,The Offspring,rock,2020,mixed,298.0,test
+v0219,emGri7i8Y2Y,Sum 41,rock,2020,mixed,220.0,train
+v0222,RUi54JTgL5s,Simple Plan,rock,2020,mixed,274.0,train
+v0223,_GOR5gvQwDI,Simple Plan,rock,2020,mixed,192.0,train
+v0228,DWaB4PXCwFU,Breaking Benjamin,rock,2020,mixed,208.0,val
+v0229,9zFfRSeA1ls,Breaking Benjamin,rock,2020,mixed,248.0,val
+v0230,7qrRzNidzIc,Breaking Benjamin,rock,2020,mixed,219.0,val
+v0231,3YxaaGgTQYM,Evanescence,rock,2020,mixed,254.0,train
+v0232,5anLPw0Efmo,Evanescence,rock,2020,mixed,270.0,train
+v0233,CdhqVtpR2ts,Evanescence,rock,2020,mixed,218.0,train
+v0241,jhgVu2lsi_k,Royal Blood,rock,2020,mixed,197.0,train
+v0242,ZSznpyG9CHY,Royal Blood,rock,2020,mixed,242.0,train
+v0243,a_426RiwST8,The Black Keys,rock,2020,mixed,195.0,train
+v0244,KKSmHOUaqaQ,The Black Keys,rock,2020,mixed,269.0,train
+v0246,qI-95cTMeLM,Jack White,rock,2020,mixed,231.0,train
+v0247,MQOnbp_DspY,Jack White,rock,2020,mixed,261.0,train
+v0248,ru5afNNSPeU,Jack White,rock,2020,mixed,174.0,train
+v0250,pBsQVP-Olmw,Kasabian,rock,2020,mixed,248.0,train
+v0251,lk5iMgG-WJI,Kasabian,rock,2020,mixed,220.0,train
+v0252,cmpRLQZkTb8,Oasis,rock,2020,mixed,288.0,train
+v0253,bx1Bh8ZvH84,Oasis,rock,2020,mixed,278.0,train
+v0255,SSbBvKaM6sk,Blur,rock,2020,mixed,123.0,test
+v0256,p1a_4CN4onA,Blur,rock,2020,mixed,214.0,test
+v0258,u5CVsCnxyXg,Radiohead,rock,2020,mixed,227.0,train
+v0259,XFkzRNyygfk,Radiohead,rock,2020,mixed,237.0,train
+v0262,BPNTC7uZYrI,Coldplay,rock,2020,mixed,251.0,train
+v0263,VPRjCeoBqrI,Coldplay,rock,2020,mixed,254.0,train
+v0264,RSNmgE6L8AU,Keane,rock,2020,mixed,212.0,train
+v0265,Oextk-If8HQ,Keane,rock,2020,mixed,237.0,train
+v0266,JugGmkvhsKQ,Keane,rock,2020,mixed,281.0,train
+v0267,GemKqzILV4w,Snow Patrol,rock,2020,mixed,221.0,train
+v0268,AOBs8dU4Pb8,Snow Patrol,rock,2020,mixed,260.0,train
+v0270,fgT9zGkiLig,Incubus,rock,2020,mixed,234.0,train
+v0271,8295rOMvtQI,Incubus,rock,2020,mixed,213.0,train
+v0274,fV4DiAyExN0,Hoobastank,rock,2020,mixed,251.0,train
+v0275,E17HnEMloDc,Hoobastank,rock,2020,mixed,164.0,train
+v0276,j0lSpNtjPM8,Papa Roach,rock,2020,mixed,199.0,train
+v0277,VUaM3psXB74,Papa Roach,rock,2020,mixed,199.0,train
+v0278,eHbNU9WuVgw,Papa Roach,rock,2020,mixed,206.0,train
+v0279,09LTT0xwdfw,Disturbed,rock,2020,mixed,218.0,train
+v0280,u9Dg-g7t2l4,Disturbed,rock,2020,mixed,262.0,train
+v0281,1K9jBL2syJ8,Disturbed,rock,2020,mixed,302.0,train
+v0282,A7ry4cx6HfY,Avenged Sevenfold,rock,2020,mixed,329.0,train
+v0283,mzX0rhF8buo,Avenged Sevenfold,rock,2020,mixed,283.0,train
+v0284,HIRNdveLnJI,Avenged Sevenfold,rock,2020,mixed,242.0,train
+v0285,KC0DNLDXJW8,Halestorm,rock,2020,mixed,178.0,train
+v0286,YpJAmlnBxoA,Halestorm,rock,2020,mixed,198.0,train
+v0287,FmkHqUwa4zg,Halestorm,rock,2020,mixed,199.0,train
+v0288,txBfhpm1jI0,The Pretty Reckless,rock,2020,mixed,233.0,train
+v0289,QK_nCLD2O6o,The Pretty Reckless,rock,2020,mixed,246.0,train
+v0292,tetYlkuHMpI,Greta Van Fleet,rock,2020,mixed,293.0,train
+v0293,86_vnQc1oBE,Greta Van Fleet,rock,2020,mixed,252.0,train
+v0294,yOb9Xaug35M,Maneskin,rock,2020,mixed,173.0,train
+v0295,odWKEfp2QMY,Maneskin,rock,2020,mixed,287.0,train
+v0298,DLG9oTH-ZbQ,Ghost,rock,2020,mixed,309.0,train
+v0299,VqoyKzgkqR4,Ghost,rock,2020,mixed,240.0,train
+v0300,H58vbez_m4E,Kendrick Lamar,hiphop,2020,mixed,354.0,train
+v0301,zI383uEwA6Q,Kendrick Lamar,hiphop,2020,mixed,207.0,train
+v0304,JFm7YDVlqnI,Drake,hiphop,2020,mixed,301.0,val
+v0305,QW29Ly55Kvs,Drake,hiphop,2020,mixed,196.0,val
+v0306,WILNIXZr2oc,J. Cole,hiphop,2020,mixed,219.0,val
+v0307,W5hSdGt2M8w,J. Cole,hiphop,2020,mixed,245.0,val
+v0308,w3333Fo6ufY,J. Cole,hiphop,2020,mixed,154.0,val
+v0309,tfSS1e3kYeo,Travis Scott,hiphop,2020,mixed,177.0,test
+v0312,au2n7VVGv_c,Post Malone,hiphop,2020,mixed,237.0,test
+v0313,ApXoWvfEYVU,Post Malone,hiphop,2020,mixed,162.0,test
+v0314,wXhTHyIgQ_U,Post Malone,hiphop,2020,mixed,226.0,test
+v0315,YVkUvmDQ3HY,Eminem,hiphop,2020,mixed,298.0,train
+v0316,S9bCLPwzSC0,Eminem,hiphop,2020,mixed,258.0,train
+v0317,j5-yKhDd64s,Eminem,hiphop,2020,mixed,259.0,train
+v0318,E58qLXBfLrs,Kanye West,hiphop,2020,mixed,272.0,train
+v0319,MKM90u7pf3U,Kanye West,hiphop,2020,mixed,156.0,train
+v0320,Bm5iA4Zupek,Kanye West,hiphop,2020,mixed,278.0,train
+v0321,vk6014HuxcE,Jay-Z,hiphop,2020,mixed,282.0,train
+v0322,RM7lw0Ovzq0,Jay-Z,hiphop,2020,mixed,254.0,train
+v0323,hl5t3TyP8aY,Jay-Z,hiphop,2020,mixed,295.0,train
+v0326,GllEDACUbNo,50 Cent,hiphop,2020,mixed,257.0,train
+v0327,rseqmSGH7xk,Snoop Dogg,hiphop,2020,mixed,344.0,train
+v0329,GtUVQei3nX4,Snoop Dogg,hiphop,2020,mixed,263.0,train
+v0330,QZXc39hT8t4,Dr. Dre,hiphop,2020,mixed,197.0,train
+v0331,QFcv5Ma8u8k,Dr. Dre,hiphop,2020,mixed,314.0,train
+v0332,8GliyDgAGQI,Dr. Dre,hiphop,2020,mixed,285.0,train
+v0333,rzRqEWJYwX4,Ice Cube,hiphop,2020,mixed,228.0,train
+v0334,h4UqMyldS7Q,Ice Cube,hiphop,2020,mixed,306.0,train
+v0335,nCkblLhs0-4,Ice Cube,hiphop,2020,mixed,211.0,train
+v0336,3hOZaTGnHU4,Nas,hiphop,2020,mixed,186.0,val
+v0337,kAKxjTRV6ms,Nas,hiphop,2020,mixed,234.0,val
+v0338,VC4ORS5n9Hg,Nas,hiphop,2020,mixed,238.0,val
+v0339,PWgvGjAhvIw,OutKast,hiphop,2020,mixed,304.0,train
+v0342,5URefVYaJrA,A$AP Rocky,hiphop,2020,mixed,194.0,train
+v0343,CG8_jqHjidc,A$AP Rocky,hiphop,2020,mixed,214.0,train
+v0344,Kbj2Zss-5GY,A$AP Rocky,hiphop,2020,mixed,227.0,train
+v0345,TGgcC5xg9YI,"Tyler, The Creator",hiphop,2020,mixed,203.0,train
+v0346,kZfz5UlsHlQ,"Tyler, The Creator",hiphop,2020,mixed,289.0,train
+v0347,ljHdccyQbT4,"Tyler, The Creator",hiphop,2020,mixed,164.0,train
+v0348,SsKT0s5J8ko,Mac Miller,hiphop,2020,mixed,347.0,train
+v0349,aIHF7u9Wwiw,Mac Miller,hiphop,2020,mixed,397.0,train
+v0350,fYEXdCCpfVQ,Mac Miller,hiphop,2020,mixed,299.0,train
+v0351,VYOjWnS4cMY,Childish Gambino,hiphop,2020,mixed,245.0,train
+v0354,Kb24RrHIbFk,Logic,hiphop,2020,mixed,420.0,train
+v0355,MhbrAkMBa5g,Logic,hiphop,2020,mixed,178.0,train
+v0356,eIGh4Nc1fAM,Logic,hiphop,2020,mixed,323.0,train
+v0358,0L8kRN_bPXM,Big Sean,hiphop,2020,mixed,239.0,train
+v0359,phr1pOFK1V8,Big Sean,hiphop,2020,mixed,227.0,train
+v0360,6OxmafNPn3o,Future,hiphop,2020,mixed,174.0,train
+v0361,G6xgMW7U0aY,Future,hiphop,2020,mixed,176.0,train
+v0362,ufWyjtt7A84,Future,hiphop,2020,mixed,199.0,train
+v0363,DmWWqogr_r8,21 Savage,hiphop,2020,mixed,392.0,test
+v0364,U4mADkt6o-M,21 Savage,hiphop,2020,mixed,266.0,test
+v0365,LPTlvQ1Zet0,21 Savage,hiphop,2020,mixed,188.0,test
+v0366,NyTkaQHdySM,Metro Boomin,hiphop,2020,mixed,203.0,test
+v0367,_WCD3Z9UmJ4,Metro Boomin,hiphop,2020,mixed,189.0,test
+v0368,_mSYQ1kadYg,Metro Boomin,hiphop,2020,mixed,265.0,test
+v0369,PXxbEfhtDiM,Lil Baby,hiphop,2020,mixed,169.0,test
+v0370,GErG9femMQk,Lil Baby,hiphop,2020,mixed,174.0,test
+v0371,nUEqPtVGIpE,Lil Baby,hiphop,2020,mixed,187.0,test
+v0372,w7Wf0h1Q8a4,Gunna,hiphop,2020,mixed,195.0,train
+v0373,48rRv5ISfrg,Gunna,hiphop,2020,mixed,178.0,train
+v0375,yQBImEeXNZ4,Jack Harlow,hiphop,2020,mixed,155.0,train
+v0376,Iq8h3GEe22o,Jack Harlow,hiphop,2020,mixed,139.0,train
+v0377,UTHLKHL_whs,Jack Harlow,hiphop,2020,mixed,235.0,train
+v0378,pSY3i5XHHXo,Central Cee,hiphop,2020,mixed,229.0,train
+v0379,pDddlvCfTiw,Central Cee,hiphop,2020,mixed,151.0,train
+v0380,BqucGvLxrEk,Central Cee,hiphop,2020,mixed,177.0,train
+v0381,SOJpE1KMUbo,Dave,hiphop,2020,mixed,221.0,train
+v0382,1lWxMne0NEk,Dave,hiphop,2020,mixed,319.0,train
+v0383,hyH7AT_Zh7Q,Dave,hiphop,2020,mixed,281.0,train
+v0384,9ClYy0MxsU0,Stormzy,hiphop,2020,mixed,204.0,train
+v0385,RqQGUJK7Na4,Stormzy,hiphop,2020,mixed,193.0,train
+v0386,dXeOBkKdiAg,Stormzy,hiphop,2020,mixed,334.0,train
+v0387,MQOG5BkY2Bc,Skepta,hiphop,2020,mixed,171.0,train
+v0392,LDZX4ooRsWs,Nicki Minaj,hiphop,2020,mixed,290.0,train
+v0393,hsm4poTWjMs,Cardi B,hiphop,2020,mixed,252.0,train
+v0394,I-5e_J3LWS8,Cardi B,hiphop,2020,mixed,180.0,train
+v0396,9ofUM-_3uQ4,Megan Thee Stallion,hiphop,2020,mixed,147.0,train
+v0397,OdxSbc0ap-s,Megan Thee Stallion,hiphop,2020,mixed,227.0,train
+v0400,gMq-I0dejjE,Ice Spice,hiphop,2020,mixed,182.0,train
+v0401,UqmUxkRPBS0,Ice Spice,hiphop,2020,mixed,128.0,train
+v0404,voT9hOs6FZc,GloRilla,hiphop,2020,mixed,148.0,train
+v0405,cjIvu7e6Wq8,Missy Elliott,hiphop,2020,mixed,265.0,val
+v0406,FPoKiGQzbSQ,Missy Elliott,hiphop,2020,mixed,245.0,val
+v0408,8gyLR4NfMiI,Busta Rhymes,hiphop,2020,mixed,248.0,train
+v0409,WDaNJW_jEBo,Busta Rhymes,hiphop,2020,mixed,319.0,train
+v0410,YNSxNsr4wmA,Busta Rhymes,hiphop,2020,mixed,276.0,train
+v0411,5yt849wJyVk,Ludacris,hiphop,2020,mixed,350.0,train
+v0414,mcg4z1gGbEw,T.I.,hiphop,2020,mixed,176.0,train
+v0415,Kgdr2uytpDI,T.I.,hiphop,2020,mixed,253.0,train
+v0416,8Bf4qOn0MRs,T.I.,hiphop,2020,mixed,150.0,train
+v0417,OZLUa8JUR18,Lil Wayne,hiphop,2020,mixed,242.0,train
+v0418,2IH8tNQAzSs,Lil Wayne,hiphop,2020,mixed,302.0,train
+v0419,KY44zvhWhp4,Lil Wayne,hiphop,2020,mixed,265.0,train
+v0420,JU9TouRnO84,Rick Ross,hiphop,2020,mixed,249.0,train
+v0421,4fn7c1s7J5s,Rick Ross,hiphop,2020,mixed,213.0,train
+v0423,RgKAFK5djSk,Wiz Khalifa,hiphop,2020,mixed,237.0,train
+v0425,Wa5B22KAkEk,Wiz Khalifa,hiphop,2020,mixed,257.0,train
+v0428,F5vPmRPCp50,Kid Cudi,hiphop,2020,mixed,240.0,train
+v0429,yRfQGXFRr30,Joey Bada$$,hiphop,2020,mixed,173.0,train
+v0430,RLnA25dVzrQ,Joey Bada$$,hiphop,2020,mixed,209.0,train
+v0434,B0kJ5Kxqm14,Denzel Curry,hiphop,2020,mixed,260.0,train
+v0435,EVlGLtCnN-Y,JID,hiphop,2020,mixed,262.0,val
+v0436,Y19q-7VN2WI,JID,hiphop,2020,mixed,272.0,val
+v0437,vtY8pM-H65c,JID,hiphop,2020,mixed,177.0,val
+v0438,skw3kUycvpo,EarthGang,hiphop,2020,mixed,241.0,train
+v0439,2U3kGmrrUS8,EarthGang,hiphop,2020,mixed,284.0,train
+v0440,YYfXONqXLTU,EarthGang,hiphop,2020,mixed,262.0,train
+v0441,mb6Jc4juSF8,Vince Staples,hiphop,2020,mixed,183.0,train
+v0444,Iuq9XK6tojs,Schoolboy Q,hiphop,2020,mixed,227.0,train
+v0445,_L2vJEb6lVE,Schoolboy Q,hiphop,2020,mixed,284.0,train
+v0447,NPI_6MX74j4,Pusha T,hiphop,2020,mixed,190.0,train
+v0450,ebXbLfLACGM,Calvin Harris,electronic,2020,mixed,234.0,train
+v0451,dGghkjpNCQ8,Calvin Harris,electronic,2020,mixed,246.0,train
+v0452,kOkQ4T5WO9E,Calvin Harris,electronic,2020,mixed,239.0,train
+v0453,5dbEhBKGOtY,David Guetta,electronic,2020,mixed,242.0,train
+v0455,N9hazmsUxrM,David Guetta,electronic,2020,mixed,211.0,train
+v0458,cHHLHGNpCSA,Avicii,electronic,2020,mixed,230.0,train
+v0459,gCYcHz2k5x0,Martin Garrix,electronic,2020,mixed,192.0,val
+v0462,IxxstCcJlsc,Zedd,electronic,2020,mixed,275.0,val
+v0463,n1a7o44WxNo,Zedd,electronic,2020,mixed,253.0,val
+v0464,M3mJkSqZbX4,Zedd,electronic,2020,mixed,190.0,val
+v0465,9Sc-ir2UwGU,Kygo,electronic,2020,mixed,222.0,train
+v0466,zaIsVnmwdqg,Kygo,electronic,2020,mixed,244.0,train
+v0468,60ItHLz5WEA,Alan Walker,electronic,2020,mixed,213.0,train
+v0469,1-xGerv5FOk,Alan Walker,electronic,2020,mixed,163.0,train
+v0472,m7Bc3pLyij0,Marshmello,electronic,2020,mixed,233.0,train
+v0473,2vMH8lITTCE,Marshmello,electronic,2020,mixed,170.0,train
+v0474,Io0fBr1XBUA,The Chainsmokers,electronic,2020,mixed,218.0,train
+v0475,0zGcUoRlhmw,The Chainsmokers,electronic,2020,mixed,247.0,train
+v0476,fRNkQH4DVg8,The Chainsmokers,electronic,2020,mixed,222.0,train
+v0477,YqeW9_5kURI,Major Lazer,electronic,2020,mixed,179.0,train
+v0478,DoM3nQh-8JA,Major Lazer,electronic,2020,mixed,213.0,train
+v0480,BGpzGu9Yp6Y,Skrillex,electronic,2020,mixed,218.0,train
+v0481,YJVmu6yttiw,Skrillex,electronic,2020,mixed,219.0,train
+v0484,nntGTK2Fhb0,Diplo,electronic,2020,mixed,251.0,train
+v0486,93ASUImTedo,Disclosure,electronic,2020,mixed,257.0,train
+v0487,b_KfnGBtVeA,Disclosure,electronic,2020,mixed,215.0,train
+v0489,papuvlVeZg8,Clean Bandit,electronic,2020,mixed,254.0,train
+v0490,SdfL2nY-Xs8,Clean Bandit,electronic,2020,mixed,290.0,train
+v0492,M97vR2V4vTs,Rudimental,electronic,2020,mixed,315.0,test
+v0493,pjTj-_55WZ8,Rudimental,electronic,2020,mixed,232.0,test
+v0494,J9-Lwpgfd1E,Rudimental,electronic,2020,mixed,328.0,test
+v0495,5XR7naZ_zZA,Galantis,electronic,2020,mixed,264.0,train
+v0496,4jBDnYE1WjI,Galantis,electronic,2020,mixed,234.0,train
+v0497,xUVz4nRmxn4,Galantis,electronic,2020,mixed,202.0,train
+v0500,BXpdmKELE1k,Swedish House Mafia,electronic,2020,mixed,216.0,train
+v0501,CFF0mV24WCY,Tiesto,electronic,2020,mixed,213.0,val
+v0502,taSubkjZUA4,Tiesto,electronic,2020,mixed,187.0,val
+v0504,BR_DFMUzX4E,Armin van Buuren,electronic,2020,mixed,250.0,train
+v0505,TxvpctgU_s8,Armin van Buuren,electronic,2020,mixed,188.0,train
+v0508,q8kUckZ15fE,Hardwell,electronic,2020,mixed,210.0,train
+v0509,0nZFFEsFJzI,Hardwell,electronic,2020,mixed,211.0,train
+v0514,bIv16itYi_0,Steve Aoki,electronic,2020,mixed,198.0,train
+v0515,Vt4Tq89R8u0,Steve Aoki,electronic,2020,mixed,208.0,train
+v0517,9vMh9f41pqE,Dimitri Vegas & Like Mike,electronic,2020,mixed,198.0,train
+v0520,k4LphhTa_xg,Don Diablo,electronic,2020,mixed,203.0,train
+v0521,Z7yjP-6Uxe8,Don Diablo,electronic,2020,mixed,223.0,train
+v0522,VMnPX3GeyEM,Oliver Heldens,electronic,2020,mixed,198.0,train
+v0524,_ONqHM40WdQ,Oliver Heldens,electronic,2020,mixed,202.0,train
+v0526,Mo4cmTaEDIk,Robin Schulz,electronic,2020,mixed,174.0,train
+v0527,P9-4xHVc7uk,Robin Schulz,electronic,2020,mixed,216.0,train
+v0528,5j1RCys4R0g,Felix Jaehn,electronic,2020,mixed,188.0,train
+v0529,xwYA1d0E_RM,Felix Jaehn,electronic,2020,mixed,162.0,train
+v0530,W7aaDTHv3oE,Felix Jaehn,electronic,2020,mixed,156.0,train
+v0531,ilw-qmqZ5zY,Lost Frequencies,electronic,2020,mixed,171.0,val
+v0532,PoP2Sa7wYNQ,Lost Frequencies,electronic,2020,mixed,173.0,val
+v0533,VjHMDlAPMUw,Lost Frequencies,electronic,2020,mixed,143.0,val
+v0534,alyzaHBHdpU,Medusa,electronic,2020,mixed,313.0,train
+v0535,cxm5mi7YIac,Medusa,electronic,2020,mixed,279.0,train
+v0536,NSbSXVTzkzk,Medusa,electronic,2020,mixed,153.0,train
+v0537,Mf_pvNkNJjk,Topic,electronic,2020,mixed,229.0,test
+v0542,Cl6Rz1Uvi2M,Fred again..,electronic,2020,mixed,251.0,train
+v0543,sCz5y84dwuA,Peggy Gou,electronic,2020,mixed,164.0,train
+v0544,kD0en6bbJPI,Peggy Gou,electronic,2020,mixed,312.0,train
+v0545,63AIpRUren0,Peggy Gou,electronic,2020,mixed,195.0,train
+v0546,gjftPjEROSM,Bicep,electronic,2020,mixed,247.0,train
+v0547,A7ZxRs45tTg,Bicep,electronic,2020,mixed,285.0,train
+v0548,Govg_XmORLE,Bicep,electronic,2020,mixed,249.0,train
+v0549,43HOnc3nZ5s,ODESZA,electronic,2020,mixed,251.0,train
+v0550,UW0vOum0mBM,ODESZA,electronic,2020,mixed,277.0,train
+v0552,-KPnyf8vwXI,Flume,electronic,2020,mixed,232.0,train
+v0556,CzJbz9qSsd0,Porter Robinson,electronic,2020,mixed,253.0,train
+v0557,q-74HTjRbuY,Porter Robinson,electronic,2020,mixed,241.0,train
+v0558,iqUBmeFn7qM,Madeon,electronic,2020,mixed,241.0,train
+v0559,CzVg1vRmmso,Madeon,electronic,2020,mixed,178.0,train
+v0560,CGCnoVrgf9c,Madeon,electronic,2020,mixed,199.0,train
+v0561,XpmeVNxZ-Ks,Illenium,electronic,2020,mixed,239.0,val
+v0562,lzkKzZmRZk8,Illenium,electronic,2020,mixed,229.0,val
+v0563,m_1-j2mQKYE,Illenium,electronic,2020,mixed,184.0,val
+v0564,NgSFun7F8dI,Gryffin,electronic,2020,mixed,251.0,train
+v0565,QjihRb2E-YA,Gryffin,electronic,2020,mixed,232.0,train
+v0570,jGK3YVmGZ3Y,Kaytranada,electronic,2020,mixed,232.0,train
+v0571,rKlA5tRu6f0,Kaytranada,electronic,2020,mixed,232.0,train
+v0572,iRr6e27CVqs,Kaytranada,electronic,2020,mixed,241.0,train
+v0573,QWaWsgBbFsA,Justice,electronic,2020,mixed,404.0,train
+v0574,E7FU_mqhFGk,Justice,electronic,2020,mixed,200.0,train
+v0575,SVq2yMuAMVQ,Justice,electronic,2020,mixed,228.0,train
+v0576,a5uQMwRMHcs,Daft Punk,electronic,2020,mixed,340.0,train
+v0577,CCHdMIEGaaM,Daft Punk,electronic,2020,mixed,248.0,train
+v0578,ySLc8gZ3oEc,Daft Punk,electronic,2020,mixed,357.0,train
+v0579,tpKCqp9CALQ,The Chemical Brothers,electronic,2020,mixed,219.0,train
+v0580,UVrwzjtBHq0,The Chemical Brothers,electronic,2020,mixed,273.0,train
+v0581,LO2RPDZkY88,The Chemical Brothers,electronic,2020,mixed,220.0,train
+v0584,JEq10L7u3SM,Fatboy Slim,electronic,2020,mixed,291.0,train
+v0585,8mYd2X_9rrs,Pendulum,electronic,2020,mixed,229.0,test
+v0586,k88UuciRe-Q,Pendulum,electronic,2020,mixed,304.0,test
+v0587,Sc0azslzhu0,Pendulum,electronic,2020,mixed,176.0,test
+v0588,B8vlk1UR99k,Sub Focus,electronic,2020,mixed,232.0,train
+v0589,M3ccJEj6-Ag,Sub Focus,electronic,2020,mixed,176.0,train
+v0590,PK1aLAn2tTY,Sub Focus,electronic,2020,mixed,158.0,train
+v0591,zrX5zrPoZoM,Wilkinson,electronic,2020,mixed,362.0,train
+v0592,8wmnuZHzUeo,Wilkinson,electronic,2020,mixed,215.0,train
+v0594,rkjNL4dX-U4,Chase & Status,electronic,2020,mixed,220.0,test
+v0595,VGJlu7nlikY,Chase & Status,electronic,2020,mixed,193.0,test
+v0596,nRKCiTw5kkA,Chase & Status,electronic,2020,mixed,196.0,test
+v0597,0z7omu2UNVA,Netsky,electronic,2020,mixed,189.0,test
+v0598,qFDP9egTwfM,Netsky,electronic,2020,mixed,235.0,test
+v0599,BCC_AvmHpR4,Netsky,electronic,2020,mixed,310.0,test
+v0606,uQFVqltOXRg,Daniel Caesar,rnb_latin,2020,mixed,271.0,train
+v0607,-YlFWMXxgtg,Daniel Caesar,rnb_latin,2020,mixed,310.0,train
+v0608,hKgl5-lkT8U,Daniel Caesar,rnb_latin,2020,mixed,243.0,train
+v0609,mpxEUex3dek,H.E.R.,rnb_latin,2020,mixed,172.0,test
+v0610,A_rDJ-ckxqA,H.E.R.,rnb_latin,2020,mixed,276.0,test
+v0611,wNliit0-u7c,H.E.R.,rnb_latin,2020,mixed,179.0,test
+v0612,x3bfa3DZ8JM,Khalid,rnb_latin,2020,mixed,251.0,train
+v0613,jrXXgp8XP1E,Khalid,rnb_latin,2020,mixed,180.0,train
+v0614,5dWeeUIZFgA,Khalid,rnb_latin,2020,mixed,237.0,train
+v0615,d7cVLE4SaN0,Bryson Tiller,rnb_latin,2020,mixed,223.0,train
+v0616,U5XufcVdKx4,Bryson Tiller,rnb_latin,2020,mixed,194.0,train
+v0617,-I8DrXXGd9E,Bryson Tiller,rnb_latin,2020,mixed,165.0,train
+v0618,1l8vIAvAerE,Summer Walker,rnb_latin,2020,mixed,154.0,val
+v0619,PY9HTSBXE8s,Summer Walker,rnb_latin,2020,mixed,206.0,val
+v0621,gH6KzyT6dkE,Jhene Aiko,rnb_latin,2020,mixed,185.0,test
+v0624,LAYgZEMMWxo,Kehlani,rnb_latin,2020,mixed,180.0,train
+v0625,6qatTTscK4c,Kehlani,rnb_latin,2020,mixed,224.0,train
+v0626,VHsJCGh4gr4,Kehlani,rnb_latin,2020,mixed,232.0,train
+v0627,W16bk86xIY0,Ella Mai,rnb_latin,2020,mixed,244.0,val
+v0628,6YNZlXfW6Ho,Ella Mai,rnb_latin,2020,mixed,242.0,val
+v0629,7hardmXJShA,Ella Mai,rnb_latin,2020,mixed,173.0,val
+v0630,P4GnrzUACmU,Brent Faiyaz,rnb_latin,2020,mixed,242.0,train
+v0632,m6r6nbMxcA8,Brent Faiyaz,rnb_latin,2020,mixed,223.0,train
+v0633,uWRlisQu4fo,Giveon,rnb_latin,2020,mixed,248.0,train
+v0634,uCPjdfCUowg,Giveon,rnb_latin,2020,mixed,305.0,train
+v0635,F5S0rnc3828,Giveon,rnb_latin,2020,mixed,175.0,train
+v0636,JkQeYKwI0PU,Lucky Daye,rnb_latin,2020,mixed,176.0,train
+v0637,Ylf8gJQe8So,Lucky Daye,rnb_latin,2020,mixed,240.0,train
+v0638,3Na4923etuM,Lucky Daye,rnb_latin,2020,mixed,213.0,train
+v0639,h99lQg2zSl0,Victoria Monet,rnb_latin,2020,mixed,217.0,train
+v0641,KdJ-Qwu3y4Y,Victoria Monet,rnb_latin,2020,mixed,216.0,train
+v0642,a9HIaGcBocc,Chloe x Halle,rnb_latin,2020,mixed,183.0,train
+v0643,Bc9Y58TeZk0,Chloe x Halle,rnb_latin,2020,mixed,186.0,train
+v0646,pD8mxge6kek,Usher,rnb_latin,2020,mixed,227.0,val
+v0647,cB5e0zHRzHc,Usher,rnb_latin,2020,mixed,374.0,val
+v0648,pfxyk1glEq4,Chris Brown,rnb_latin,2020,mixed,176.0,train
+v0649,46p-IxAVJ74,Chris Brown,rnb_latin,2020,mixed,229.0,train
+v0650,JXRN_LkCa_o,Chris Brown,rnb_latin,2020,mixed,270.0,train
+v0651,IxszlJppRQI,Ne-Yo,rnb_latin,2020,mixed,209.0,val
+v0652,k6M5C-oKw9k,Ne-Yo,rnb_latin,2020,mixed,277.0,val
+v0654,Urdlvw0SSEc,Alicia Keys,rnb_latin,2020,mixed,207.0,train
+v0655,J91ti_MpdHA,Alicia Keys,rnb_latin,2020,mixed,233.0,train
+v0656,rywUS-ohqeE,Alicia Keys,rnb_latin,2020,mixed,248.0,train
+v0657,k4YRWT_Aldo,Beyonce,rnb_latin,2020,mixed,217.0,train
+v0659,pZ12_E5R3qc,Beyonce,rnb_latin,2020,mixed,230.0,train
+v0660,450p7goxZqg,John Legend,rnb_latin,2020,mixed,307.0,train
+v0662,NmCFY1oYDeM,John Legend,rnb_latin,2020,mixed,255.0,train
+v0663,q4GJVOMjCC4,Miguel,rnb_latin,2020,mixed,202.0,train
+v0668,jrjESdPsLxE,Tinashe,rnb_latin,2020,mixed,179.0,train
+v0669,hQsZUVMwEls,Jorja Smith,rnb_latin,2020,mixed,261.0,train
+v0670,80J2YroXH3g,Jorja Smith,rnb_latin,2020,mixed,213.0,train
+v0672,bn_p95HbHoQ,Kali Uchis,rnb_latin,2020,mixed,170.0,train
+v0673,obBXhTwFsKQ,Kali Uchis,rnb_latin,2020,mixed,192.0,train
+v0676,Cr8K88UcO0s,Bad Bunny,rnb_latin,2020,mixed,290.0,train
+v0677,GtSRKwDCaZM,Bad Bunny,rnb_latin,2020,mixed,200.0,train
+v0678,wnJ6LuUFpMo,J Balvin,rnb_latin,2020,mixed,186.0,train
+v0679,MjlTKXujfwE,J Balvin,rnb_latin,2020,mixed,174.0,train
+v0680,rzgw0XldTC0,J Balvin,rnb_latin,2020,mixed,258.0,train
+v0681,BgMU9Vuj17Y,Karol G,rnb_latin,2020,mixed,173.0,train
+v0684,t_jHrUE5IOk,Maluma,rnb_latin,2020,mixed,291.0,train
+v0685,pK060iUFWXg,Maluma,rnb_latin,2020,mixed,258.0,train
+v0686,Q527XDLEpfU,Maluma,rnb_latin,2020,mixed,241.0,train
+v0687,KWGrPNqz4uc,Ozuna,rnb_latin,2020,mixed,230.0,test
+v0688,WAcnWtZjDWE,Ozuna,rnb_latin,2020,mixed,269.0,test
+v0689,VqEbCxg2bNI,Ozuna,rnb_latin,2020,mixed,273.0,test
+v0690,DiItGE3eAyQ,Daddy Yankee,rnb_latin,2020,mixed,211.0,train
+v0691,6BTjG-dhf5s,Daddy Yankee,rnb_latin,2020,mixed,255.0,train
+v0692,CCF1_jI8Prk,Daddy Yankee,rnb_latin,2020,mixed,254.0,train
+v0693,Bp3Ytv-v918,Rauw Alejandro,rnb_latin,2020,mixed,214.0,test
+v0694,XYyU8Y_o9v4,Rauw Alejandro,rnb_latin,2020,mixed,234.0,test
+v0699,gFZfwWZV074,Anuel AA,rnb_latin,2020,mixed,257.0,train
+v0700,0VR3dfZf9Yg,Anuel AA,rnb_latin,2020,mixed,302.0,train
+v0701,ycV6cnK3SIs,Anuel AA,rnb_latin,2020,mixed,218.0,train
+v0702,_I_D_8Z4sJE,Nicky Jam,rnb_latin,2020,mixed,192.0,train
+v0703,kkx-7fsiWgg,Nicky Jam,rnb_latin,2020,mixed,246.0,train
+v0704,YG2p6XBuSKA,Nicky Jam,rnb_latin,2020,mixed,276.0,train
+v0706,pRpeEdMmmQ0,Shakira,rnb_latin,2020,mixed,211.0,val
+v0708,koJlIGDImiU,Enrique Iglesias,rnb_latin,2020,mixed,263.0,train
+v0710,Jx2yQejrrUE,Enrique Iglesias,rnb_latin,2020,mixed,299.0,train
+v0711,TyHvyGVs42U,Luis Fonsi,rnb_latin,2020,mixed,210.0,train
+v0714,Fp_P_e1cPOE,Camila,rnb_latin,2020,mixed,226.0,val
+v0716,IcIkmPU9reU,Camila,rnb_latin,2020,mixed,148.0,val
+v0717,FAq4OIRDo68,Romeo Santos,rnb_latin,2020,mixed,298.0,train
+v0718,QFs3PIZb3js,Romeo Santos,rnb_latin,2020,mixed,268.0,train
+v0719,JNkTNAknE4I,Romeo Santos,rnb_latin,2020,mixed,316.0,train
+v0720,lZiaYpD9ZrI,Peso Pluma,rnb_latin,2020,mixed,188.0,train
+v0721,fOT0BUpITw8,Peso Pluma,rnb_latin,2020,mixed,234.0,train
+v0724,ddkbVYutRXA,Fuerza Regida,rnb_latin,2020,mixed,198.0,train
+v0725,EX5WEmTCcgA,Fuerza Regida,rnb_latin,2020,mixed,230.0,train
+v0726,3inw26U-os4,Grupo Frontera,rnb_latin,2020,mixed,195.0,train
+v0727,Vr1M_l-1wjc,Grupo Frontera,rnb_latin,2020,mixed,173.0,train
+v0728,SiOgs73KMOU,Grupo Frontera,rnb_latin,2020,mixed,191.0,train
+v0729,WuVJMfhpdUk,Christian Nodal,rnb_latin,2020,mixed,198.0,train
+v0730,Ge4AKbnr6ME,Christian Nodal,rnb_latin,2020,mixed,181.0,train
+v0731,ETLoTxVVvjM,Christian Nodal,rnb_latin,2020,mixed,202.0,train
+v0732,FjIfxEXOcxo,Sebastián Yatra,rnb_latin,2020,mixed,219.0,train
+v0733,-qGbUNQqVNc,Sebastián Yatra,rnb_latin,2020,mixed,247.0,train
+v0734,Qz9gmiLBVFA,Sebastián Yatra,rnb_latin,2020,mixed,203.0,train
+v0735,TiM_TFpT_DE,Manuel Turizo,rnb_latin,2020,mixed,194.0,test
+v0736,VYtJAuoZxcc,Manuel Turizo,rnb_latin,2020,mixed,213.0,test
+v0737,ooHII67__Sg,Manuel Turizo,rnb_latin,2020,mixed,225.0,test
+v0740,2mY7AFTtYwQ,Camilo,rnb_latin,2020,mixed,210.0,train
+v0741,mt1UhAdMwB0,Danny Ocean,rnb_latin,2020,mixed,143.0,train
+v0743,HZ8nhGgdZxY,Danny Ocean,rnb_latin,2020,mixed,221.0,train
+v0744,5j8fIDh1V0A,Myke Towers,rnb_latin,2020,mixed,252.0,train
+v0745,BVdngsy95mY,Myke Towers,rnb_latin,2020,mixed,198.0,train
+v0746,YxgfGp7Yt1s,Myke Towers,rnb_latin,2020,mixed,272.0,train
+v0747,y8trd3gjJt0,Farruko,rnb_latin,2020,mixed,294.0,train
+v0748,g5TqQ4JwP8k,Farruko,rnb_latin,2020,mixed,223.0,train
+v0749,dZzBa7jlXY0,Farruko,rnb_latin,2020,mixed,238.0,train

@@ -1,0 +1,60 @@
+# Rendering (handoff section 6). Model IDs are pinned in configs/versions.yaml too.
+prompt:
+  backend: template                 # template | local | api
+  clap_context: add                 # off | add | only: how CLAP audio words enter the prompt (see prompt.py)
+  local_model: Qwen/Qwen2.5-1.5B-Instruct
+  load_in_4bit: false               # true needs bitsandbytes
+  api_format: anthropic             # anthropic | openai (any OpenAI-compatible endpoint)
+  api_model: claude-haiku-5-5
+  api_key_env: ANTHROPIC_API_KEY    # the key is read from this env var, never stored
+  api_url: null                     # null = the provider's default endpoint
+clap:
+  # Text tower of the checkpoint that made features/*.npz "clap". Identified by testing 5 LAION
+  # checkpoints on train songs: only this one lines up with the stored vectors (zero-shot genre
+  # accuracy 0.58 vs 0.19-0.26 for the others, chance 0.20). See docs/IMPLEMENTATION.md.
+  model_id: laion/clap-htsat-unfused
+  revision: 8fa0f1c6d0433df6e97c127f64b2a1d6c0dcda8a
+  min_z: 0.5                        # an instrument is named only if it stands out this much (train z-score)
+  # Vary the players across a song instead of always naming the top-scoring ones (audio_context._pick_players):
+  # Measured on 10 val songs: the top player fell from 48% to 24% of shots, shots with no player from 32% to 11%.
+  player_sampling: true
+  players_per_shot: 1               # one player per panel (two let the top player into most pairs)
+  player_min_z: 0.0                 # candidates: players the audio supports at least an average amount
+  player_temperature: 1.0           # weight = exp(z / temperature) among the candidates
+  player_rep_limit: 0.2             # a player on more than this share of the song's shots so far ...
+  player_rep_penalty: 4.0           # ... has its weight divided by this
+panels:
+  # sana-sprint (default) | sdxl-turbo, or --image_model / the portal. Chosen by a 48-prompt bake-off:
+  # prompt accuracy tied (own prompt ranked 1st by SigLIP 66.7% vs 64.6%), Sana draws more complete scenes,
+  # ~15% slower (3.7 vs 3.2 s per panel here), Apache-2.0 (SDXL-Turbo is non-commercial). results/README.md.
+  backend: sana-sprint
+  model_id: stabilityai/sdxl-turbo
+  revision: 71153311d3dbb46851df1931d3ca6e939de83304
+  size: 512
+  steps: 2                          # 1 to 4. 1 is soft charcoal, 4 is the cleanest line art (~2x the time)
+  models:                           # each model's own settings, laid over the shared ones above
+    sdxl-turbo:
+      model_id: stabilityai/sdxl-turbo
+      revision: 71153311d3dbb46851df1931d3ca6e939de83304
+      size: 512
+    sana-sprint:                    # NVIDIA Sana-Sprint 1.6B; must draw at its native 1024 px
+      model_id: Efficient-Large-Model/Sana_Sprint_1.6B_1024px_diffusers
+      revision: 19683c58b7ea290e55cedd8950ae1d86ada7ef96
+      size: 1024
+      save_size: 512                # panels are stored at 512 px like SDXL-Turbo's
+  batch_size: 4                     # forced to 1 when offload is sequential
+  offload: auto                     # auto | none | model | sequential (auto picks from GPU memory)
+  grayscale: true                   # tags like golden hour sunlight otherwise leave colour in the panel
+  # Wording chosen by comparing rendered panels (see docs/IMPLEMENTATION.md):
+  #  - style words go FIRST: as a suffix alone, panels stay in colour
+  #  - no word "storyboard": it draws a grid of many tiny panels inside one panel
+  #  - no "no text": CLIP has no negation, so it invites scribbled lettering
+  #  - no "pencil": an extreme close-up then draws a pencil tip
+  style_prefix: "single black ink sketch, monochrome line art: "
+  style_suffix: ", simple line art, white background"
+check:
+  enabled: true
+  model_id: google/siglip-base-patch16-224
+  revision: 7fd15f0689c79d79e38b1c2e2e2370a7bf2761ed
+  threshold: auto                   # auto = cache/redraw_threshold.json (20th pct on a val run); null = log only
+  max_tries: 3

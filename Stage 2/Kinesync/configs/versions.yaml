@@ -1,0 +1,41 @@
+# Pinned model IDs and library versions (handoff rule 11).
+# "tested here" = the laptop this was built on (Python 3.13.5, Windows 11, RTX 3050 4 GB, driver 621.01).
+# SDXL-Turbo and SigLIP were run here, in .venv. The local and API prompt LLMs were NOT run.
+models:
+  stage2: configs/stage2/final_ensemble.yaml        # 4 checkpoints averaged, chosen on val (see results/stage2_sweep.md)
+  lyric_encoder: sentence-transformers/all-MiniLM-L6-v2@1110a243fdf4706b3f48f1d95db1a4f5529b4d41
+  panels: Efficient-Large-Model/Sana_Sprint_1.6B_1024px_diffusers@19683c58b7ea290e55cedd8950ae1d86ada7ef96   # default
+  panels_alt: stabilityai/sdxl-turbo@71153311d3dbb46851df1931d3ca6e939de83304   # fp16 variant
+  redraw_check: google/siglip-base-patch16-224@7fd15f0689c79d79e38b1c2e2e2370a7bf2761ed
+  clap_text: laion/clap-htsat-unfused@8fa0f1c6d0433df6e97c127f64b2a1d6c0dcda8a   # identified, see IMPLEMENTATION 15b
+  prompt_llm_local: Qwen/Qwen2.5-1.5B-Instruct       # only if prompt.backend = local
+  prompt_llm_api: claude-haiku-5-5                   # only if prompt.backend = api
+  stage1: MOCK (kinesync/stage1/mock.py)             # replace when the real Stage 1 lands
+data:
+  release: kinesync_data_v2
+  vocab: tags_v1
+  norm_stats: stats/norm_train.json
+libraries:   # tested here
+  python: 3.13.5
+  torch: 2.9.1+cpu
+  numpy: 2.1.3
+  scikit-learn: 1.6.1
+  pandas: 2.2.3
+  scipy: 1.15.2
+  pyyaml: 6.0.2
+  transformers: 5.22.1
+  sentence-transformers: 6.2.0
+  diffusers: 0.42.1
+  pillow: 11.1.0
+  pytest: 9.2.0
+extractor:     # kinesync/features/extract.py, new songs only
+  clap_audio: laion/clap-htsat-unfused@8fa0f1c6d0433df6e97c127f64b2a1d6c0dcda8a
+  whisper: openai-whisper 20250625, model "base"
+  ffmpeg: "8.1.1"
+render_venv:   # .venv only, used for drawing panels
+  torch: 2.9.1+cu128
+  accelerate: 1.15.0
+  sentencepiece: 0.2.3
+  protobuf: 7.35.1
+  flask: 3.1.3
+  tiktoken: 0.14.0

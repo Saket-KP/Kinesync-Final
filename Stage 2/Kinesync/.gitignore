@@ -1,0 +1,19 @@
+# Data release: large, and lyric text must not be published
+/features/
+/lyrics/
+/shots/
+*.zip
+# Generated (storyboards, sheets and cut lists contain lyric lines)
+/cache/
+/checkpoints/
+/outputs/
+/stage1/
+/stage2/
+/runs/
+__pycache__/
+*.pyc
+.pytest_cache/
+/.venv/
+/uploads/
+/.claude/
+/user_songs.csv

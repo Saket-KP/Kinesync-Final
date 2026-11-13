@@ -1,0 +1,240 @@
+artist,genre,split,videos_total,videos_in_release
+21 Savage,hiphop,test,3,3
+50 Cent,hiphop,train,1,1
+A$AP Rocky,hiphop,train,3,3
+Adele,pop,train,3,3
+Alan Walker,electronic,train,2,2
+Alicia Keys,rnb_latin,train,3,3
+Anuel AA,rnb_latin,train,3,3
+Arctic Monkeys,rock,train,2,2
+Ariana Grande,pop,train,2,2
+Armin van Buuren,electronic,train,2,2
+Ava Max,pop,train,3,3
+Avenged Sevenfold,rock,train,3,3
+Avicii,electronic,train,1,1
+Backstreet Boys,pop,val,3,3
+Bad Bunny,rnb_latin,train,2,2
+Bazzi,pop,train,3,2
+Bebe Rexha,pop,train,3,3
+Beyonce,rnb_latin,train,2,2
+Bicep,electronic,train,3,3
+Big Sean,hiphop,train,2,2
+Billie Eilish,pop,test,3,3
+Blink-182,rock,train,3,3
+Blur,rock,test,3,2
+Breaking Benjamin,rock,val,3,3
+Brent Faiyaz,rnb_latin,train,2,2
+Bruno Mars,pop,test,3,3
+Bryson Tiller,rnb_latin,train,3,3
+Busta Rhymes,hiphop,train,3,3
+Calvin Harris,electronic,train,3,3
+Camila,rnb_latin,val,2,2
+Camila Cabello,pop,val,3,3
+Camilo,rnb_latin,train,1,1
+Cardi B,hiphop,train,3,2
+Carly Rae Jepsen,pop,train,3,3
+Central Cee,hiphop,train,3,3
+Chappell Roan,pop,train,1,1
+Charlie Puth,pop,train,3,3
+Chase & Status,electronic,test,3,3
+Childish Gambino,hiphop,train,1,1
+Chloe x Halle,rnb_latin,train,2,2
+Chris Brown,rnb_latin,train,3,3
+Christian Nodal,rnb_latin,train,3,3
+Clean Bandit,electronic,train,2,2
+Coldplay,rock,train,2,2
+Conan Gray,pop,train,2,2
+Daddy Yankee,rnb_latin,train,3,3
+Daft Punk,electronic,train,3,3
+Daniel Caesar,rnb_latin,train,3,3
+Danny Ocean,rnb_latin,train,2,2
+Dave,hiphop,train,3,3
+David Guetta,electronic,train,2,2
+Demi Lovato,pop,train,2,2
+Denzel Curry,hiphop,train,1,1
+Dimitri Vegas & Like Mike,electronic,train,1,1
+Diplo,electronic,train,1,1
+Disclosure,electronic,train,2,2
+Disturbed,rock,train,3,3
+Doja Cat,pop,train,3,3
+Don Diablo,electronic,train,2,2
+Dr. Dre,hiphop,train,3,3
+Drake,hiphop,val,2,2
+Dua Lipa,pop,val,2,2
+EarthGang,hiphop,train,3,3
+Ed Sheeran,pop,train,1,1
+Ella Mai,rnb_latin,val,3,3
+Ellie Goulding,pop,train,3,3
+Eminem,hiphop,train,3,3
+Enrique Iglesias,rnb_latin,train,2,2
+Evanescence,rock,train,3,3
+Fall Out Boy,rock,train,3,3
+Farruko,rnb_latin,train,3,3
+Fatboy Slim,electronic,train,1,1
+Felix Jaehn,electronic,train,3,3
+Flume,electronic,train,1,1
+Foo Fighters,rock,train,3,3
+Franz Ferdinand,rock,train,2,2
+Fred again..,electronic,train,1,1
+Fuerza Regida,rnb_latin,train,2,2
+Future,hiphop,train,3,3
+Galantis,electronic,train,3,3
+Ghost,rock,train,2,2
+Giveon,rnb_latin,train,3,3
+GloRilla,hiphop,train,1,1
+Green Day,rock,train,3,3
+Greta Van Fleet,rock,train,2,2
+Grupo Frontera,rnb_latin,train,3,3
+Gryffin,electronic,train,2,2
+Gunna,hiphop,train,2,2
+H.E.R.,rnb_latin,test,3,3
+Halestorm,rock,train,3,3
+Halsey,pop,train,3,3
+Hardwell,electronic,train,2,2
+Harry Styles,pop,train,2,2
+Hoobastank,rock,train,2,2
+Ice Cube,hiphop,train,3,3
+Ice Spice,hiphop,train,2,2
+Illenium,electronic,val,3,3
+Imagine Dragons,rock,train,1,1
+Incubus,rock,train,2,2
+J Balvin,rnb_latin,train,3,3
+J. Cole,hiphop,val,3,3
+JID,hiphop,val,3,3
+Jack Harlow,hiphop,train,3,3
+Jack White,rock,train,3,3
+Jay-Z,hiphop,train,3,3
+Jhene Aiko,rnb_latin,test,1,1
+Joey Bada$$,hiphop,train,2,2
+John Legend,rnb_latin,train,2,2
+Jonas Brothers,pop,train,2,2
+Jorja Smith,rnb_latin,train,3,2
+Justice,electronic,train,3,3
+Justin Bieber,pop,train,1,1
+Kali Uchis,rnb_latin,train,2,2
+Kanye West,hiphop,train,3,3
+Karol G,rnb_latin,train,1,1
+Kasabian,rock,train,2,2
+Kaytranada,electronic,train,3,3
+Keane,rock,train,3,3
+Kehlani,rnb_latin,train,3,3
+Kendrick Lamar,hiphop,train,2,2
+Khalid,rnb_latin,train,3,3
+Kid Cudi,hiphop,train,1,1
+Kings of Leon,rock,train,1,1
+Kygo,electronic,train,3,2
+Lady Gaga,pop,test,1,1
+Lauv,pop,train,3,3
+Lewis Capaldi,pop,train,2,2
+Lil Baby,hiphop,test,3,3
+Lil Wayne,hiphop,train,3,3
+Linkin Park,rock,val,3,3
+Little Mix,pop,train,3,2
+Logic,hiphop,train,3,3
+Lorde,pop,train,3,3
+Lost Frequencies,electronic,val,3,3
+Lucky Daye,rnb_latin,train,3,3
+Ludacris,hiphop,train,1,1
+Luis Fonsi,rnb_latin,train,1,1
+Mac Miller,hiphop,train,3,3
+Madeon,electronic,train,3,3
+Major Lazer,electronic,train,3,2
+Maluma,rnb_latin,train,3,3
+Maneskin,rock,train,2,2
+Manuel Turizo,rnb_latin,test,3,3
+Maroon 5,pop,train,2,2
+Marshmello,electronic,train,2,2
+Martin Garrix,electronic,val,1,1
+Medusa,electronic,train,3,3
+Megan Thee Stallion,hiphop,train,2,2
+Meghan Trainor,pop,train,3,3
+Metro Boomin,hiphop,test,3,3
+Miguel,rnb_latin,train,1,1
+Miley Cyrus,pop,train,3,3
+Missy Elliott,hiphop,val,3,2
+Muse,rock,train,2,2
+My Chemical Romance,rock,test,2,2
+Myke Towers,rnb_latin,train,3,3
+Nas,hiphop,val,3,3
+Ne-Yo,rnb_latin,val,3,2
+Netsky,electronic,test,3,3
+Niall Horan,pop,train,3,3
+Nicki Minaj,hiphop,train,1,1
+Nicky Jam,rnb_latin,train,3,3
+Nirvana,rock,train,3,3
+ODESZA,electronic,train,3,2
+Oasis,rock,train,2,2
+Oliver Heldens,electronic,train,2,2
+Olivia Rodrigo,pop,train,3,3
+OutKast,hiphop,train,1,1
+Ozuna,rnb_latin,test,3,3
+Papa Roach,rock,train,3,3
+Paramore,rock,train,3,2
+Pearl Jam,rock,train,3,3
+Peggy Gou,electronic,train,3,3
+Pendulum,electronic,test,3,3
+Peso Pluma,rnb_latin,train,2,2
+Porter Robinson,electronic,train,2,2
+Post Malone,hiphop,test,3,3
+Pusha T,hiphop,train,1,1
+Queens of the Stone Age,rock,train,3,3
+Radiohead,rock,train,2,2
+Rauw Alejandro,rnb_latin,test,2,2
+Red Hot Chili Peppers,rock,test,3,3
+Rick Ross,hiphop,train,2,2
+Rihanna,pop,train,3,3
+Rita Ora,pop,test,1,1
+Robin Schulz,electronic,train,2,2
+Romeo Santos,rnb_latin,train,3,3
+Rosalia,pop,test,3,3
+Royal Blood,rock,train,2,2
+Rudimental,electronic,test,3,3
+Sabrina Carpenter,pop,train,3,3
+Sam Smith,pop,train,2,2
+Schoolboy Q,hiphop,train,2,2
+Sebastián Yatra,rnb_latin,train,3,3
+Selena Gomez,pop,train,3,2
+Shakira,rnb_latin,val,1,1
+Shawn Mendes,pop,val,3,2
+Sia,pop,train,2,2
+Simple Plan,rock,train,2,2
+Skepta,hiphop,train,1,1
+Skrillex,electronic,train,2,2
+Snoop Dogg,hiphop,train,2,2
+Snow Patrol,rock,train,3,2
+Soundgarden,rock,val,3,3
+Steve Aoki,electronic,train,2,2
+Stormzy,hiphop,train,3,3
+Sub Focus,electronic,train,3,3
+Sum 41,rock,train,1,1
+Summer Walker,rnb_latin,val,2,2
+Swedish House Mafia,electronic,train,1,1
+T.I.,hiphop,train,3,3
+Tate McRae,pop,test,3,3
+Taylor Swift,pop,train,2,2
+The Black Keys,rock,train,3,2
+The Chainsmokers,electronic,train,3,3
+The Chemical Brothers,electronic,train,3,3
+The Killers,rock,val,3,3
+The Offspring,rock,test,3,3
+The Pretty Reckless,rock,train,2,2
+The Smashing Pumpkins,rock,train,3,3
+The Strokes,rock,test,1,1
+The Weeknd,pop,val,2,2
+Tiesto,electronic,val,2,2
+Tinashe,rnb_latin,train,1,1
+Topic,electronic,test,2,1
+Travis Scott,hiphop,test,1,1
+Troye Sivan,pop,train,3,3
+Twenty One Pilots,rock,train,3,3
+"Tyler, The Creator",hiphop,train,3,3
+Usher,rnb_latin,val,2,2
+Victoria Monet,rnb_latin,train,2,2
+Vince Staples,hiphop,train,1,1
+Weezer,rock,train,1,1
+Wilkinson,electronic,train,2,2
+Wiz Khalifa,hiphop,train,2,2
+Zara Larsson,pop,train,2,2
+Zayn,pop,train,3,3
+Zedd,electronic,val,3,3
+onerepublic,pop,train,1,1

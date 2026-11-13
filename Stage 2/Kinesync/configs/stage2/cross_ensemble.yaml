@@ -1,0 +1,7 @@
+# Cross-attention Stage 2 (Stage2CrossModel): the same four setups as final_ensemble.yaml, with cross-attention
+# from shots to the song's per-second CLAP and kept lyric lines. See results/stage2_cross.md.
+members:
+  - checkpoints/stage2/cross/seed1234.pt
+  - checkpoints/stage2/cross/seed1.pt
+  - checkpoints/stage2/cross/seed2.pt
+  - checkpoints/stage2/cross/d128.pt

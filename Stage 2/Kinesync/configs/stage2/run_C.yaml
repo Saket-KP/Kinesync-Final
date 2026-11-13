@@ -1,0 +1,19 @@
+# Run C: as Run A, plus kinetics noise (normalised units) and +-2 frame boundary jitter,
+# so the model is less brittle when fed Stage 1 kinetics and spans.
+run_name: run_C
+seed: 1234
+kin_source: real
+kin_noise: 0.3
+jitter_frames: 2
+max_len: 128
+model: {d: 256, layers: 4, heads: 4, ff: 1024, dropout: 0.1}
+optim:
+  lr: 3.0e-4
+  weight_decay: 0.01
+  warmup_steps: 500
+  batch_size: 16
+  grad_clip: 1.0
+  max_epochs: 80
+  patience: 10
+amp: auto
+num_workers: 0

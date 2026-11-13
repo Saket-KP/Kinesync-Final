@@ -1,0 +1,8 @@
+# Final Stage 2 model: the average of four checkpoints from the val search (results/stage2_sweep.md).
+# On VAL: NLL 5.612 vs 5.704 for the best single model (seed noise between runs: 0.041), and every
+# metric improves. Chosen on val only. Members are Run A settings unless noted.
+members:
+  - checkpoints/stage2/final/seed1234.pt
+  - checkpoints/stage2/final/seed1.pt
+  - checkpoints/stage2/final/seed2.pt
+  - checkpoints/stage2/final/d128.pt      # d 128, ff 512

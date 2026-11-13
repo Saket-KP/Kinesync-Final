@@ -1,0 +1,25 @@
+{
+  "vocab_version": "tags_v1",
+  "tags": [
+    {"id": 0, "group": "Setting", "phrase": "city street at night"},
+    {"id": 1, "group": "Setting", "phrase": "empty desert road"},
+    {"id": 2, "group": "Setting", "phrase": "bedroom interior"},
+    {"id": 3, "group": "Setting", "phrase": "concert stage with crowd"},
+    {"id": 4, "group": "Setting", "phrase": "recording studio"},
+    {"id": 5, "group": "Subject", "phrase": "solo singer"},
+    {"id": 6, "group": "Subject", "phrase": "band playing instruments"},
+    {"id": 7, "group": "Subject", "phrase": "romantic couple"},
+    {"id": 8, "group": "Subject", "phrase": "group of dancers"},
+    {"id": 9, "group": "Action", "phrase": "dancing"},
+    {"id": 10, "group": "Action", "phrase": "walking toward camera"},
+    {"id": 11, "group": "Action", "phrase": "driving a car"},
+    {"id": 12, "group": "Action", "phrase": "singing into microphone"},
+    {"id": 13, "group": "Lighting", "phrase": "neon light"},
+    {"id": 14, "group": "Lighting", "phrase": "warm golden hour sunlight"},
+    {"id": 15, "group": "Lighting", "phrase": "hard flash photography lighting"},
+    {"id": 16, "group": "Lighting", "phrase": "dark silhouette against bright backlight"},
+    {"id": 17, "group": "Style", "phrase": "black and white monochrome"},
+    {"id": 18, "group": "Style", "phrase": "vintage film grain"},
+    {"id": 19, "group": "Style", "phrase": "wide angle lens distortion"}
+  ]
+}

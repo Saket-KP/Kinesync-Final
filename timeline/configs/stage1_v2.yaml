@@ -1,0 +1,56 @@
+# KineSync Stage 1 -- the v2 release run (553 videos, 35.7 h, 239 artists).
+#
+# Identical to stage1_base.yaml except for the data root and the output directory.
+# Keeping it as a separate file rather than a --set override means the run is fully
+# described by one checked-in file, and the pilot config stays reproducible.
+#
+# The 25 fps grid is the decision that matters: the `cut` channel is rasterised from
+# cut_times at full precision, so sub-beat timing survives. The other four video
+# channels are upsampled from their stored 2 fps and are NOT measurements at this
+# rate -- when Member 1 re-extracts them at 25 fps, nothing here changes.
+
+data:
+  root: data_v2         # the merged v2 release; `data` is the 41-video pilot
+  fps: 25               # Stage-1 output grid
+  audio_fps: 10         # native rate of onset/flux/chroma/beat_phase/section
+  video_fps: 2          # native rate of flow/color_drift/brightness/saturation
+  window_s: 10.0
+  hop_s: 5.0
+  cut_sigma_frames: 2.0 # ~80 ms; peak locations stay exact
+  n_sections: 8
+  n_cond_ch: 26
+  n_out_ch: 5
+  # Drop single-shot videos: their cut target is all zero, which teaches "never cut".
+  # v2 has 4 (v0101, v0258, v0542, v0608), all in train. Set to 0 to load verbatim.
+  min_cuts_per_video: 1
+
+model:
+  d_model: 256
+  n_layers: 6
+  n_heads: 8
+  d_ff: 1024
+  dropout: 0.1
+
+diffusion:
+  timesteps: 1000
+  cosine_s: 0.008
+  ddim_steps: 50
+  cfg_dropout: 0.1      # genre token only; rhythm is always present
+  guidance: 2.0
+  vel_loss_weight: 0.05
+
+train:
+  batch_size: 64
+  lr: 2.0e-4
+  weight_decay: 0.01
+  warmup_steps: 500
+  max_steps: 20000
+  grad_clip: 1.0
+  amp: true
+  num_workers: 0
+  ckpt_every: 1000
+  eval_every: 1000
+  log_every: 50
+  out_dir: runs/stage1_v2
+  normalize: zscore     # stats in data_v2/norm_stats.json (425 train videos)
+  seed: 0

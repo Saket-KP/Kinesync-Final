@@ -1,0 +1,10 @@
+tag_min_z: 2.0
+members:
+- checkpoints/stage2/strict/seed1234.pt
+- checkpoints/stage2/strict/seed1.pt
+- checkpoints/stage2/strict/seed2.pt
+- checkpoints/stage2/strict/d128.pt
+sampling:
+  tau_tag: 1.2
+note: Trained on tags with z >= 2.0. tau_tag 1.2 matches val tag rates (mean |log
+  ratio| 0.174).
